@@ -1,0 +1,19 @@
+{
+  "name": "logreq",
+  "version": "1.0.0",
+  "description": "Logger-agnostic logging middleware for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --single-quote --write index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig Younker",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "on-finished": "^2.3.0"
+  }
+}
+
